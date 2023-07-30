@@ -1,0 +1,161 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xB66B7B0Cf8F809ce8712Ba44A86516d91263fC25",
+    "txHash": "0xf1833e1f5316c9e81be6e5119860d4cfbf5c2fb1bc93ebbd52acbdc53c239e60"
+  },
+  "proxies": [
+    {
+      "address": "0x5972b6083a09E45Fa45Be9b619De0B4bd8C73B89",
+      "txHash": "0xb8a6cf67a6c034471a219a862c1cab0ae5966b4a082795bc353fd33118d4e051",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfb0D6410a30AE8d1bceB8cb9F6de3eaCC41f7Cd5",
+      "txHash": "0x9c860bae14890a45ef5c223f987f8eb0da117f95ebd8be78ea729f905aec04ed",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x99023527b0482C6B88912fb3164c494712a3168E",
+      "txHash": "0x26c791c3688a97e9ed60e98d01ce355c3c0bf81304551235a658a2e736b3da8b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x732901f710Ff65A265291001f55429c00C9d1b49",
+      "txHash": "0xbc8f6fa2b3473fd6a30b9bacd1fad3be43a338b0284c20b3aa0f3defb41ab8b2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xEf2a24F0332640B58bcAD50EcBd74Cfa46479Dc4",
+      "txHash": "0x63c59260b770b4cc8ee2d371a13ebc55ec96a0f237894949f2e6e43c43ab32ca",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCE7724474A0832410Ba9FA86A7578f97Ade50020",
+      "txHash": "0x14b0014a0623b3ce59518508f5af228e11009dfd2ada80b4b2a28f0c4b6f38cb",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "041666f7011c9b5a8bf6080dc0792fc660df15767181dcdce8b38677929c9b6e": {
+      "address": "0x0993153Ef725A0D7a0d9C19833bCe8F62147f556",
+      "txHash": "0xd1f0cc28149dab7d0e380dd29f21ac15029712edabfd690bcdbd78247b526c51",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+          },
+          {
+            "label": "numSodas",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "VendingMachineV1",
+            "src": "contracts/VendingMachineV1.sol:9"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "VendingMachineV1",
+            "src": "contracts/VendingMachineV1.sol:10"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "ec617043df82fdd5756e8603abdaa50e6a66b147e74fa6a6e993014c35cda22a": {
+      "address": "0xD42517bD1dD366502810F7aDA5Bb483434dB4245",
+      "txHash": "0xe312ef79063b4d9a21e5ac8ae040308fd75642511791d8c614750e9372872dbf",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:68"
+          },
+          {
+            "label": "numSodas",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "VendingMachineV2",
+            "src": "contracts/VendingMachineV2.sol:9"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "VendingMachineV2",
+            "src": "contracts/VendingMachineV2.sol:10"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
